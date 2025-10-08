@@ -4,3 +4,8 @@ This module extends from [the contrib profile module](https://www.drupal.org/pro
 2. Fixes [linkit](https://www.drupal.org/project/linkit) filtering to get accurate results based on matches to any of the first name, last name, department, and job title field.
 
 For these features to provide any benefit, the profile type would need the matching field names, but it is set up in such a way that it should default back to default behaviour if those fields do not exist.
+
+## TODO
+
+- [ ] Finish unit/kernel tests
+- [ ] Generalize fields to be configurable, chosen from the matcher configuration page instead of being hard-coded
