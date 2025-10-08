@@ -1,0 +1,9 @@
+name: Profile Extended
+type: module
+description: "Additional features for profiles"
+package: Profile
+version: 1.0
+core_version_requirement: ^10 || ^11
+dependencies:
+  - profile:profile
+php: 8.3

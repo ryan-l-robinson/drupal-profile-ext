@@ -1,0 +1,5 @@
+services:
+  profile_ext.utils:
+    class: Drupal\profile_ext\Services\ProfileExtUtils
+    arguments:
+      - "@entity_type.manager"
