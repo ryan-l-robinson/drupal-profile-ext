@@ -14,7 +14,7 @@ class ProfileTypeHooks {
    * Adjust user profile links.
    */
   #[Hook('entity_type_alter')]
-  protected function changeProfileType(array $entity_types): void {
+  public function changeProfileType(array $entity_types): void {
     if (isset($entity_types['profile'])) {
       $definition = $entity_types['profile'];
       $definition->setClass(Profile::class);
